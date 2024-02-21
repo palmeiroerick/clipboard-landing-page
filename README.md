@@ -18,12 +18,12 @@ Users should be able to:
 
 ## Screenshot
 
-![](./screenshot.jpg)
+![Screen Shot 2024-02-21 at 00 02 13](https://github.com/palmeiroerick/clipboard-landing-page/assets/148393698/d393cdb2-6478-47f2-8d80-dfb63c251551)
 
 ## Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://github.com/palmeiroerick/clipboard-landing-page/)
+- [Live Site](https://clipboard-landing-page-three-pi.vercel.app/)
 
 ## Built with
 
