@@ -3,5 +3,16 @@ type ButtonProps = {
 };
 
 export default function Button({ type }: ButtonProps) {
-  return <button>Download for {type}</button>;
+  const variants = {
+    iOS: "bg-strongCyan",
+    Mac: "bg-darkGrayishBlue",
+  };
+
+  return (
+    <button
+      className={`${variants[type]} h-12 w-80 rounded-full text-lg font-semibold text-[#fff]`}
+    >
+      Download for {type}
+    </button>
+  );
 }
