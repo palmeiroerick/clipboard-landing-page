@@ -10,7 +10,7 @@ export default function Button({ type }: ButtonProps) {
 
   return (
     <button
-      className={`${variants[type]} h-12 w-80 rounded-full text-lg font-semibold text-[#fff]`}
+      className={`${variants[type]} h-12 w-80 rounded-full text-lg font-semibold text-[#fff] lg:w-56`}
     >
       Download for {type}
     </button>
