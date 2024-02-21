@@ -4,5 +4,11 @@ type TextProps = {
 };
 
 export default function Text({ children, className }: TextProps) {
-  return <p className={`${className} text-center text-grayishBlue text-[17px]`}>{children}</p>;
+  return (
+    <p
+      className={`${className} text-center text-[17px] text-grayishBlue lg:text-[22px]`}
+    >
+      {children}
+    </p>
+  );
 }
