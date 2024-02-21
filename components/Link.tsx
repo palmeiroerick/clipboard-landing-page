@@ -3,5 +3,9 @@ type LinkProps = {
 };
 
 export default function Link({ children }: LinkProps) {
-  return <a className="text-lg text-darkGrayishBlue">{children}</a>;
+  return (
+    <a className="cursor-pointer text-lg text-darkGrayishBlue transition duration-300 hover:text-strongCyan">
+      {children}
+    </a>
+  );
 }
