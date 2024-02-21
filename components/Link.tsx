@@ -3,5 +3,5 @@ type LinkProps = {
 };
 
 export default function Link({ children }: LinkProps) {
-  return <a>{children}</a>;
+  return <a className="text-lg text-darkGrayishBlue">{children}</a>;
 }
